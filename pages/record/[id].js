@@ -8,9 +8,9 @@ const Id = ({ videoUrl }) => {
         <title>Record</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-col items-center justify-center min-h-screen py-2">
-        <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-          <h1 className="text-6xl font-bold">Record</h1>
+      <div className="flex flex-col items-start justify-center min-h-screen py-2">
+        <main className="flex flex-col items-center justify-start w-full flex-1 px-20 text-center">
+          <h1 className="text-6xl font-bold mt-5">Record</h1>
           <Video videoUrl={videoUrl} />
         </main>
       </div>
